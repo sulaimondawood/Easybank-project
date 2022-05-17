@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+*{
+    scroll-behavior: smooth;
+    scroll-margin: 4rem;
+}
+
+.btn{
+    @apply text-VeryLightGray bg-gradient-to-l from-LimeGreen to-BrightCyan text-sm px-8 py-3 rounded-full
+}
+
+.show_links{
+    display: flex;
+}
+.show_links .hamburger{
+    display: none;
+}
+.show_links .close{
+    display: block;
+}
+.show_overlay{
+    /* display: block; */
+    height: 100vh;
+    /* transform: translateY(-100%); */
+}
